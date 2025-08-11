@@ -20,11 +20,12 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import walmart from "./company/walmart.png"
+import ibm from "./company/ibm.png"
+import gssoc from "./company/gssoc.png"
 
 import finly from "./finly.png";
-import calculator from "./calculator.png";
-import paint from "./paint.png";
+import autoai from "./autoai.png";
+import pixelle from "./pixelle.png";
 
 import linkedin from "./linkedin.webp"
 
@@ -50,9 +51,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  walmart,
+  gssoc,
+  ibm,
   finly,
-  calculator,
-  paint,
+  autoai,
+  pixelle,
   linkedin,
 };

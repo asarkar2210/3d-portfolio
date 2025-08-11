@@ -6,20 +6,18 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  walmart,
+  gssoc,
+  ibm,
   finly,
-  calculator,
-  paint,
+  autoai,
+  pixelle,
   threejs,
   fullstack,
   devops,
   ai,
   java,
-  linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -81,10 +79,6 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-/*   {
-    name: "Redux Toolkit",
-    icon: redux,
-  }, */
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -93,10 +87,6 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-/*   {
-    name: "MongoDB",
-    icon: mongodb,
-  }, */
   {
     name: "Three JS",
     icon: threejs,
@@ -109,56 +99,71 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-/*   {
-    name: "docker",
-    icon: docker,
-  }, */
 ];
 
 const experiences = [
 {
-  title: "Software Engineering Virtual Experience",
-  company_name: "Walmart Global Tech",
-  icon: walmart,
-  iconBg: "#0071ce",
-  date: "May 2025 - June 2025",
+  title: "Contributor",
+  company_name: "GirlScript Summer of Code",
+  icon: gssoc,
+  iconBg: "#f2f0ef",
+  date: "July 2025 - Present",
   points: [
-    "Completed Walmart’s Software Engineering Virtual Job Simulation on Forage, gaining hands-on experience in software development best practices.",
-    "Implemented scalable backend systems and contributed to API design decisions based on real-world engineering scenarios.",
-    "Debugged, optimized, and tested code to meet performance and functionality standards aligned with Walmart’s engineering practices.",
-    "Demonstrated strong problem-solving skills by completing tasks simulating actual developer challenges in a large-scale tech environment."
+    "Getting started with open-source contributions."
+  ]
+},
+{
+  title: "AI and Cloud Technologies Internship",
+  company_name: "IBM SkillsBuild & Edunet Foundation",
+  icon: ibm,
+  iconBg: "#f2f0ef",
+  date: "July 2025 - August 2025",
+  points: [
+    " Developed and deployed multiple machine learning models using IBM AutoAI, including a crop recommendation system for precision agriculture and a predictive maintenance classifier that analyzes real-time industrial machinery sensor data to identify early failure types, achieving a top F1-score of 0.978.",
+    "Built and integrated an AI-powered chatbot for college admissions course selection, leveraging Python, Twilio API, and WhatsApp to automate and personalize student engagement across digital platforms"
   ]
 },
 ];
 
-/* const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-]; */
-
 const projects = [
+  {
+    name: "Pixelle -- E-Commerce Website",
+    description:
+      "Pixelle is a custom phone case brand that transforms your favorite memories into sleek, personalized phone covers. Designed for modern minimalists, Pixelle blends style, sentiment, and protection—letting your phone case reflect who you are, one pixel at a time.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pixelle,
+    source_code_link: "https://github.com/asarkar2210/pixelle-v4",
+  },
+  {
+    name: "Predictive Maintenance of Industrial Machinery",
+    description:
+      "A predictive maintenance model built with IBM Watson Studio's AutoAI to anticipate industrial machine failures before they happen. Uses a Snap Decision Tree Classifier to predict failure types from sensor data.",
+    tags: [
+      {
+        name: "Machine Learing",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "IBM Cloud",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: autoai,
+    source_code_link: "https://github.com/asarkar2210/simple-calculator-webapp",
+  },
   {
     name: "Finly - Finance Management Web App",
     description:
@@ -179,44 +184,6 @@ const projects = [
     ],
     image: finly,
     source_code_link: "https://github.com/asarkar2210/finly-finance-webapp",
-  },
-  {
-    name: "Simple Calculator Web App",
-    description:
-      "A lightweight React application that provides basic calculator functionality with a clean, responsive UI.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: calculator,
-    source_code_link: "https://github.com/asarkar2210/simple-calculator-webapp",
-  },
-  {
-    name: "Paint Application",
-    description:
-      "A simple desktop drawing application built with Python. Draw freehand with customizable brush sizes and colors, erase, add text, and save your creations.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tkinter-library",
-        color: "green-text-gradient",
-      },
-      {
-        name: "pillow-library",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: paint,
-    source_code_link: "https://github.com/asarkar2210/paint-application",
   },
 ];
 
